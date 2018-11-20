@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp">
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Sign up"
+                   android:gravity="center"
+                   android:textSize="16dp"/>
+               <ImageButton
+                   android:id="@+id/activity_signup_ibtn_profile"
+                   android:layout_width="wrap_content"
+                   android:layout_height="100dp"
+                   android:background="@drawable/logo"
+                   />
+               <EditText
+                   android:id="@+id/activity_signup_et_name"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Name"
+                   android:inputType="textEmailAddress"
+                   android:layout_marginBottom="10dp" />
+               <EditText
+                   android:id="@+id/activity_signup_et_email"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Email"
+                   android:inputType="textEmailAddress"
+                   android:layout_marginBottom="10dp" />
+               <EditText
+                   android:id="@+id/activity_signup_et_password"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Password"
+                   android:inputType="textPassword"
+                   android:layout_marginBottom="10dp"/>
+               <EditText
+                   android:id="@+id/activity_signup_et_address"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Address"
+                   android:inputType="textPassword"
+                   android:layout_marginBottom="10dp"/>
+               <EditText
+                    android:id="@+id/activity_signup_et_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginBottom="20dp" />
+               <Button
+                   android:id="@+id/activity_signup_btn_register"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="Create"
+                   android:layout_marginBottom="20dp"/>
+               <TextView
+                   android:id="@+id/activity_signup_tv_login"
+                   android:textColor="@color/colorBlack"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Already have a account? Sign In"
+                   android:layout_gravity="center"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
